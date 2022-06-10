@@ -1,0 +1,23 @@
+{
+  "name": "shawi-list-files",
+  "packageManager": "yarn@3.2.1",
+  "author": {
+    "name": "Omar Siam",
+    "email": "Omar.Siam@oeaw.ac.at"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "16.x",
+    "yarn": "3.2.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "mustache": "^4.2.0",
+    "restana": "^4.9.5"
+  }
+}
